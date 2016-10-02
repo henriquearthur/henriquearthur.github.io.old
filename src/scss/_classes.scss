@@ -1,0 +1,184 @@
+/*!
+ * by Henrique Arthur <hnrq.art@gmail.com>
+ *
+ * Contém:
+ * - Classes funcionais
+ */
+
+.cf {
+	zoom: 1;
+}
+.cf:before,
+.cf:after {
+	display: table;
+	content: '';
+}
+.cf:after {
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+
+/**
+ * https://github.com/tableless/exemplos/blob/gh-pages/classesfuncionais.css
+ */
+.nofloat,
+.noFloat {
+	float: none;
+}
+.fright,
+.fRight {
+	float: right;
+}
+.fleft,
+.fLeft {
+	float: left;
+}
+
+.dblock,
+.dBlock {
+	display: block;
+}
+.dinline,
+.dInline {
+	display: inline;
+	float: none;
+}
+.dinlineblock,
+.dInlineBlock {
+	display: inline-block;
+	float: none;
+}
+.dnone,
+.dNone,
+.hide,
+.hide {
+	display: none;
+}
+.hideAccessible {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.nomargin,
+.noMargin {
+	margin: 0;
+}
+.nomarginleft,
+.noMarginLeft,
+.row.noMarginLeft {
+	margin-left: 0;
+}
+.nomarginright,
+.noMarginRight {
+	margin-right: 0;
+}
+.nomargintop,
+.noMarginTop {
+	margin-top: 0;
+}
+.nomarginbottom,
+.noMarginBottom {
+	margin-bottom: 0;
+}
+
+.nopadding,
+.noPadding {
+	padding: 0;
+}
+.nopaddingleft,
+.noPaddingLeft {
+	padding-left: 0;
+}
+.nopaddingright,
+.noPaddingRight {
+	padding-right: 0;
+}
+.nopaddingtop,
+.noPaddingTop {
+	padding-top: 0;
+}
+.nopaddingbottom,
+.noPaddingBottom {
+	padding-bottom: 0;
+}
+
+.posrelative,
+.posRelative {
+	position: relative;
+}
+.posabsolute,
+.posAbsolute {
+	position: absolute;
+}
+.posstatic,
+.posStatic {
+	position: static;
+}
+
+.txtLeft,
+.txtleft {
+	text-align: left;
+}
+.txtRight,
+.txtright {
+	text-align: right;
+}
+.txtJustify,
+.txtjustify {
+	text-align: justify;
+}
+.txtCenter,
+.txtcenter {
+	text-align: center;
+}
+
+.widthAuto,
+.widthAuto {
+	width: auto;
+}
+.widthInherit {
+	width: inherit;
+}
+.width100,
+.w-100 {
+	width: 100%;
+}
+
+.noborder,
+.noBorder {
+	border: none;
+}
+.noborderright,
+.noBorderRight {
+	border-right: none;
+}
+.noborderleft,
+.noBorderLeft {
+	border-left: none;
+}
+.noborderbottom,
+.noBorderBottom {
+	border-bottom: none;
+}
+.nobordertop,
+.noBorderTop {
+	border-top: none;
+}
+
+.nobg,
+.noBg {
+	background: none;
+}
+
+.noBullet,
+.noListStyle {
+	list-style: none;
+}
+
+.cursorPointer,
+.cursorpointer {
+	cursor: pointer;
+}

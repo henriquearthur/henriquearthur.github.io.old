@@ -1,0 +1,66 @@
+/*!
+ * by Henrique Arthur <hnrq.art@gmail.com>
+ *
+ * Contém:
+ * - Mixins, functions and other sass stuff
+ */
+
+/* Mixins */
+@mixin gradient($cor1, $cor2, $direction: "vertical", $type: "linear") {
+	@if $type == "linear" {
+		@if $direction == "vertical" {
+			background: $cor1;
+			background:    -moz-linear-gradient(top,  $cor1 0%, $cor2 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$cor1), color-stop(100%,$cor2));
+			background: -webkit-linear-gradient(top,  $cor1 0%,$cor2 100%);
+			background:      -o-linear-gradient(top,  $cor1 0%,$cor2 100%);
+			background:     -ms-linear-gradient(top,  $cor1 0%,$cor2 100%);
+			background:         linear-gradient(to bottom,  $cor1 0%,$cor2 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cor1', endColorstr='$cor2',GradientType=0 );
+		}
+		@if $direction == "horizontal" {
+			background: $cor1;
+			background:    -moz-linear-gradient(left,  $cor1 0%, $cor2 100%);
+			background: -webkit-linear-gradient(left,  $cor1 0%,$cor2 100%);
+			background:         linear-gradient(to right,  $cor1 0%,$cor2 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cor1', endColorstr='$cor2',GradientType=1 );
+		}
+		@if $direction == "diagonal" {
+			background: $cor1;
+			background:    -moz-linear-gradient(-45deg,  $cor1 0%, $cor2 100%);
+			background: -webkit-linear-gradient(-45deg,  $cor1 0%,$cor2 100%);
+			background:         linear-gradient(135deg,  $cor1 0%,$cor2 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cor1', endColorstr='$cor2',GradientType=1 );
+		}
+	}
+	@if $type == "radial" {
+		background: $cor1;
+		background:    -moz-radial-gradient(center, ellipse cover,  $cor1 0%, $cor2 100%);
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$cor1), color-stop(100%,$cor2));
+		background: -webkit-radial-gradient(center, ellipse cover,  $cor1 0%,$cor2 100%);
+		background:      -o-radial-gradient(center, ellipse cover,  $cor1 0%,$cor2 100%);
+		background:     -ms-radial-gradient(center, ellipse cover,  $cor1 0%,$cor2 100%);
+		background:         radial-gradient(ellipse at center,  $cor1 0%,$cor2 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cor1', endColorstr='$cor2',GradientType=1 );
+	}
+}
+
+@mixin selection($bg, $cor) {
+	::-webkit-selection {
+		background-color: $bg;
+		color: $cor;
+	}
+	::-moz-selection {
+		background-color: $bg;
+		color: $cor;
+	}
+	::selection {
+		background-color: $bg;
+		color: $cor;
+	}
+}
+
+@mixin sprt($sprite, $element) {
+	@extend .icon-#{$sprite};
+	@extend .icon-#{$sprite}-#{$element};
+}

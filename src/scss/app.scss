@@ -1,0 +1,233 @@
+/*!
+ * by Henrique Arthur <hnrq.art@gmail.com>
+ */
+
+@import "../bourbon/bourbon";
+
+@import "_core";
+@import "_reset";
+
+/* ******************************************* */
+
+//@import '_sprites';
+@import "_classes";
+
+/* ******************************************* */
+
+$red: #e74c3c;
+
+@include selection($red, #fff);
+
+html,
+body {
+	width: 100%;
+}
+
+body {
+	//background-image: url(../images/bg.png);
+	overflow-y: scroll;
+}
+
+.container {
+	position: relative;
+}
+
+.page {
+	position: absolute;
+	display: none;
+	width: 100%;
+	&.active {
+		display: block;
+	}
+}
+
+.name {
+	font-weight: 200;
+	font-size: 52px;
+	font-family: "Dosis", sans-serif;
+	color: $red;
+	span {
+		font-weight: 400;
+	}
+	&:after {
+		font-size: 36px;
+		font-family: "Astloch", cursive;
+		margin-left: 10px;
+		content: "</>";
+		opacity: .5;
+	}
+}
+
+.dev {
+	font-weight: 200;
+	font-size: 42px;
+	font-family: "Dosis", sans-serif;
+	color: #777;
+	margin: 40px 0;
+	&:before {
+		font-family: "Astloch", cursive;
+		color: #aaa;
+		margin-right: 10px;
+		content: "//";
+	}
+}
+
+.feature {
+	font-weight: 200;
+	font-size: 26px;
+	font-family: "Dosis", sans-serif;
+	line-height: 39px;
+	color: #777;
+	text-align: center;
+	span:hover {
+		color: #333;
+	}
+	&:after,
+	&:before {
+		font-size: 20px;
+		font-family: "Dosis", sans-serif;
+		color: #aaa;
+	}
+	&:before {
+		float: left;
+		margin-right: 10px;
+		content: "/*";
+	}
+	&:after {
+		float: right;
+		margin-left: 10px;
+		content: "*/";
+	}
+}
+
+.social {
+	font-size: 38px;
+	color: #888;
+	text-align: center;
+	a.github:hover {
+		color: #4078c0;
+	}
+	a.twitter:hover {
+		color: #1da1f2;
+	}
+	a.medium:hover {
+		color: #02b875;
+	}
+	a.skype:hover {
+		color: #00aff0;
+	}
+}
+
+.title {
+	font-size: 26px;
+	margin-top: 50px;
+	.name-side {
+		color: #777;
+	}
+	.slash {
+		color: #222;
+	}
+	.main {
+		color: $red;
+	}
+}
+
+.projects-list {
+	padding-bottom: 30px;
+}
+
+.box-project {
+	border-bottom: 1px solid lighten($red, 40%);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	&:last-child {
+		border-bottom: 0;
+	}
+	.project-infos {
+		line-height: 25px;
+		float: left;
+		padding-top: 25px;
+		width: calc(100% - 100px);
+	}
+	.project-name {
+		font-size: 22px;
+		color: $red;
+
+		@include transition(.3s all);
+		&:hover {
+			color: darken($red, 10%);
+
+			@include transition(.3s all);
+		}
+	}
+	.project-desc {
+		font-size: 18px;
+		color: #777;
+	}
+	.project-hidden-infos {
+		font-size: 13px;
+		line-height: 17px;
+		color: #777;
+		display: none;
+		padding: 10px 30px 0;
+		width: 100%;
+		.text-infos {
+			float: left;
+			width: calc(100% - 195px);
+		}
+		a {
+			color: $red;
+
+			@include transition(.3s all);
+			&:hover {
+				color: darken($red, 10%);
+
+				@include transition(.3s all);
+			}
+		}
+	}
+	.project-img {
+		border-radius: 100px;
+		background-size: cover;
+		float: right;
+		width: 100px;
+		height: 100px;
+	}
+}
+
+
+.contact-form {
+	float: left;
+	width: 50%;
+}
+
+.contact-text {
+	font-weight: 300;
+	font-size: 15px;
+	font-family: "Dosis", sans-serif;
+	color: #777;
+	float: right;
+	width: 45%;
+	a {
+		font-weight: 400;
+		&.mail {
+			color: $red;
+			&:hover {
+				color: darken($red, 10%);
+			}
+		}
+		&.twitter {
+			color: #1da1f2;
+			&:hover {
+				color: darken(#1da1f2, 10%);
+			}
+		}
+		&.skype {
+			color: #00aff0;
+			&:hover {
+				color: darken(#00aff0, 10%);
+			}
+		}
+	}
+}

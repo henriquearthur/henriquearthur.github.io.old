@@ -1,0 +1,42 @@
+{
+  "base": "semantic/",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "dist/",
+      "uncompressed": "dist/components/",
+      "compressed": "dist/components/",
+      "themes": "dist/themes/"
+    },
+    "clean": "dist/"
+  },
+  "permission": 744,
+  "autoInstall": false,
+  "rtl": false,
+  "components": [
+    "reset",
+    "site",
+    "button",
+    "container",
+    "icon",
+    "input",
+    "label",
+    "form",
+    "grid",
+    "message",
+    "ad",
+    "checkbox",
+    "popup",
+    "transition",
+    "api",
+    "form",
+    "state",
+    "visibility"
+  ],
+  "version": "2.2.4"
+}

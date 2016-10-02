@@ -1,0 +1,21 @@
+/*!
+ * by Henrique Arthur <hnrq.art@gmail.com>
+ *
+ * Contém:
+ * - Resets
+ */
+
+
+*,
+*:after,
+*::before {
+	box-sizing: border-box;
+}
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
