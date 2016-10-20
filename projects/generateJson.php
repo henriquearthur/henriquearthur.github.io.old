@@ -11,7 +11,8 @@ $arr = array(
 		'link' => "http://www.thebobba.com.br",
 		'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rádio, timeline, console de amigos, entre outras áreas.'
 		),
-	array(
+
+	/*array(
 		'name' => 'whispers',
 		'desc' => 'fórum gamer com área para múltiplos jogos',
 		'imagem' => 'projects/images/whispers.png',
@@ -64,7 +65,7 @@ $arr = array(
 		'data' => 'Mai/2015',
 		'link' => false,
 		'longdesc' => 'Foi desenvolvido a página principal e o fórum do fã-site.'
-		),
+		),*/
 
 	array(
 		'name' => 'portal idhabbo',
@@ -77,7 +78,7 @@ $arr = array(
 		'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rankings, rádio, entre outras áreas.'
 		),
 
-	array(
+	/*array(
 		'name' => 'rádio thehits',
 		'desc' => 'uma webrádio com playlists personalizadas',
 		'imagem' => 'projects/images/thehits.png',
@@ -86,7 +87,7 @@ $arr = array(
 		'data' => 'Dez/2014',
 		'link' => false,
 		'longdesc' => 'Foi desenvolvido portal de notícias, playlists de músicas via YouTube API, rankings, rádio, entre outras áreas.'
-		),
+		),*/
 
 	array(
 		'name' => 'portal bobbabr',
