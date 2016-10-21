@@ -12,7 +12,7 @@ $arr = array(
 		'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rádio, timeline, console de amigos, entre outras áreas.'
 		),
 
-	/*array(
+	array(
 		'name' => 'whispers',
 		'desc' => 'fórum gamer com área para múltiplos jogos',
 		'imagem' => 'projects/images/whispers.png',
@@ -23,7 +23,7 @@ $arr = array(
 		'longdesc' => 'Foi desenvolvido o suporte multi-jogo, área para vídeos, chat de usuários, entre outras áreas.'
 		),
 
-	array(
+	/*array(
 		'name' => 'prohabbo',
 		'desc' => 'fã-site do jogo Habbo Hotel',
 		'imagem' => 'projects/images/prohabbo.png',
