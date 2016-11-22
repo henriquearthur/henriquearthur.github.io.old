@@ -1,6 +1,16 @@
 <?php
 
-$arr = array(
+$arr = array(array(
+		'name' => 'habblindados',
+		'desc' => 'fã-site do jogo Habbo Hotel',
+		'imagem' => 'projects/images/manu_hbl.png',
+		'front_end' => true,
+		'back_end' => true,
+		'data' => 'Nov/2016',
+		'link' => "http://www.habblindados.com.br",
+		'longdesc' => 'Foi desenvolvido página de manutenção com notícias recentes.'
+		),
+
 	array(
 		'name' => 'thebobba',
 		'desc' => 'fã-site do jogo Habbo Hotel',
