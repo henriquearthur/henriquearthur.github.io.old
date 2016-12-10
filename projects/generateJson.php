@@ -12,13 +12,13 @@ $arr = array(array(
 		),
 
 	array(
-		'name' => 'thebobba',
+		'name' => 'icehabbo',
 		'desc' => 'fã-site do jogo Habbo Hotel',
 		'imagem' => 'projects/images/thebobba.png',
 		'front_end' => true,
 		'back_end' => true,
 		'data' => 'Out/2016',
-		'link' => "http://www.thebobba.com.br",
+		'link' => "http://www.icehabbo.com.br",
 		'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rádio, timeline, console de amigos, entre outras áreas.'
 		),
 
