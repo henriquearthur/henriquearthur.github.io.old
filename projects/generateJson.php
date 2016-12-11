@@ -14,7 +14,7 @@ $arr = array(array(
 	array(
 		'name' => 'icehabbo',
 		'desc' => 'fã-site do jogo Habbo Hotel',
-		'imagem' => 'projects/images/thebobba.png',
+		'imagem' => 'projects/images/icehabbo.png',
 		'front_end' => true,
 		'back_end' => true,
 		'data' => 'Out/2016',
