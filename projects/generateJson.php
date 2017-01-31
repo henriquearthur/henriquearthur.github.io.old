@@ -18,7 +18,7 @@ $arr = array(array(
 		'front_end' => true,
 		'back_end' => true,
 		'data' => 'Out/2016',
-		'link' => "http://www.icehabbo.com.br",
+		'link' => "http://www.icehb.com.br",
 		'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rádio, timeline, console de amigos, entre outras áreas.'
 		),
 
