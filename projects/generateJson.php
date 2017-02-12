@@ -1,6 +1,17 @@
 <?php
 
-$arr = array(array(
+$arr = array(
+    array(
+    'name' => 'cooeemix',
+    'desc' => 'fã-site do jogo Club Cooee',
+    'imagem' => 'projects/images/cooeemix.png',
+    'front_end' => true,
+    'back_end' => true,
+    'data' => 'Jan/2017',
+    'link' => "http://www.cooeemix.com.br",
+    'longdesc' => 'Foi desenvolvido portal de notícias, fórum, rankings, enquetes, timeline (portal social), entre outras áreas.'
+    ),
+    array(
     'name' => 'habblindados',
     'desc' => 'fã-site do jogo Habbo Hotel',
     'imagem' => 'projects/images/manu_hbl.png',
