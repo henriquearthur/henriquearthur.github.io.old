@@ -2,47 +2,47 @@
 
 $arr = array(
     array(
-    'name' => 'cooeemix',
-    'desc' => 'fã-site do jogo Club Cooee',
-    'imagem' => 'projects/images/cooeemix.png',
-    'front_end' => true,
-    'back_end' => true,
-    'data' => 'Jan/2017',
-    'link' => "http://www.cooeemix.com.br",
-    'longdesc' => 'Foi desenvolvido portal de notícias, fórum, rankings, enquetes, timeline (portal social), entre outras áreas.'
-    ),
+        'name' => 'cooeemix',
+        'desc' => 'fã-site do jogo Club Cooee',
+        'imagem' => 'projects/images/cooeemix.png',
+        'front_end' => true,
+        'back_end' => true,
+        'data' => 'Jan/2017',
+        'link' => "http://www.cooeemix.com.br",
+        'longdesc' => 'Foi desenvolvido portal de notícias, fórum, rankings, enquetes, timeline (portal social), entre outras áreas.'
+        ),
     array(
-    'name' => 'habblindados',
-    'desc' => 'fã-site do jogo Habbo Hotel',
-    'imagem' => 'projects/images/manu_hbl.png',
-    'front_end' => true,
-    'back_end' => true,
-    'data' => 'Nov/2016',
-    'link' => "http://www.habblindados.com.br",
-    'longdesc' => 'Foi desenvolvido página de manutenção com notícias recentes.'
-    ),
+        'name' => 'habblindados',
+        'desc' => 'fã-site do jogo Habbo Hotel',
+        'imagem' => 'projects/images/manu_hbl.png',
+        'front_end' => true,
+        'back_end' => true,
+        'data' => 'Nov/2016',
+        'link' => "http://www.habblindados.com.br",
+        'longdesc' => 'Foi desenvolvido página de manutenção com notícias recentes.'
+        ),
 
-array(
-    'name' => 'icehabbo',
-    'desc' => 'fã-site do jogo Habbo Hotel',
-    'imagem' => 'projects/images/icehabbo.png',
-    'front_end' => true,
-    'back_end' => true,
-    'data' => 'Out/2016',
-    'link' => "http://www.icehb.com.br",
-    'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rádio, timeline, console de amigos, entre outras áreas.'
-    ),
+    array(
+        'name' => 'icehabbo',
+        'desc' => 'fã-site do jogo Habbo Hotel',
+        'imagem' => 'projects/images/icehabbo.png',
+        'front_end' => true,
+        'back_end' => true,
+        'data' => 'Out/2016',
+        'link' => "http://www.icehb.com.br",
+        'longdesc' => 'Foi desenvolvido portal de notícias, fórum de usuários, área de artes, rádio, timeline, console de amigos, entre outras áreas.'
+        ),
 
-array(
-    'name' => 'whispers',
-    'desc' => 'fórum gamer com área para múltiplos jogos',
-    'imagem' => 'projects/images/whispers.png',
-    'front_end' => true,
-    'back_end' => true,
-    'data' => 'Jun/2016',
-    'link' => false,
-    'longdesc' => 'Foi desenvolvido o suporte multi-jogo, área para vídeos, chat de usuários, entre outras áreas.'
-    ),
+    array(
+        'name' => 'whispers',
+        'desc' => 'fórum gamer com área para múltiplos jogos',
+        'imagem' => 'projects/images/whispers.png',
+        'front_end' => true,
+        'back_end' => true,
+        'data' => 'Jun/2016',
+        'link' => false,
+        'longdesc' => 'Foi desenvolvido o suporte multi-jogo, área para vídeos, chat de usuários, entre outras áreas.'
+        ),
 
     /*array(
         'name' => 'prohabbo',
