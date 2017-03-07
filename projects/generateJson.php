@@ -2,13 +2,23 @@
 
 $arr = array(
     array(
-        'name' => 'cooeemix',
+        'name' => 'cooeebeat',
+        'desc' => 'fã-site do jogo Club Cooee',
+        'imagem' => 'projects/images/cooeebeat.png',
+        'front_end' => true,
+        'back_end' => true,
+        'data' => 'Fev/2017',
+        'link' => "http://www.cooeebeat.com",
+        'longdesc' => 'Foi desenvolvido portal de notícias, fórum, rankings, enquetes, rádio, entre outras áreas.'
+        ),
+    array(
+        'name' => 'cooeenection',
         'desc' => 'fã-site do jogo Club Cooee',
         'imagem' => 'projects/images/cooeemix.png',
         'front_end' => true,
         'back_end' => true,
         'data' => 'Jan/2017',
-        'link' => "http://www.cooeemix.com.br",
+        'link' => "http://www.cooeenection.tk",
         'longdesc' => 'Foi desenvolvido portal de notícias, fórum, rankings, enquetes, timeline (portal social), entre outras áreas.'
         ),
     array(
